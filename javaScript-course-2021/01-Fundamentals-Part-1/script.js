@@ -60,3 +60,17 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+
+// Assignment of Data types
+
+let country = "Philippines";
+let continent = "Asia";
+let population = 109000000;
+let isIsland = true;
+let language;
+
+console.log(country);
+console.log(continent);
+console.log(population);
+console.log(typeof isIsland);
+console.log(language);
