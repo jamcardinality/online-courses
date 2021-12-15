@@ -95,3 +95,10 @@ console.log(jam);
 
 demi = 3; //global
 console.log(demi);
+
+// Assignment of let const & var
+const language = tagalog;
+language = english;
+console.log(language);
+
+// getting Uncaught ReferenceError: tagalog is not defined
