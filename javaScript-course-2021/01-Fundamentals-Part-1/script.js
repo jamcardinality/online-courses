@@ -40,6 +40,8 @@ console.log(population);
 
 */
 
+/*
+
 // Data Types
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -74,3 +76,22 @@ console.log(continent);
 console.log(population);
 console.log(typeof isIsland);
 console.log(language);
+
+*/
+
+//let const & var
+
+let age = 10;
+age = 11;
+
+console.log(age);
+
+const birthyear = 1998;
+console.log(birthyear);
+
+var jam = 1;
+jam = 2;
+console.log(jam);
+
+demi = 3; //global
+console.log(demi);
