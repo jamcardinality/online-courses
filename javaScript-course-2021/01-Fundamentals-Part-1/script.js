@@ -106,6 +106,7 @@ console.log(language);
 
 */
 
+/*
 ////////////////////////////////////
 // Basic Operators
 // Math operators
@@ -139,3 +140,22 @@ const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2018);
 
 ////////////////////////////////////
+
+*/
+
+//Assignment of Basic Operators
+
+console.log(population / 2);
+population++;
+console.log(population);
+console.log(population > 6);
+console.log(population < 33);
+const description1 =
+  country +
+  " is in " +
+  continent +
+  ", and its " +
+  population +
+  " million people speak " +
+  language;
+console.log(description1);
