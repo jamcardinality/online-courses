@@ -10,7 +10,7 @@
       "askForPassword": true,
       "driver": "MySQL",
       "name": "mysql1",
-      "database": "default",
+      "database": "talently",
       "username": "root"
     },
     {
@@ -20,7 +20,7 @@
       "askForPassword": true,
       "driver": "PostgreSQL",
       "name": "postgres1",
-      "database": "postgres",
+      "database": "talently",
       "username": "postgres"
     }
   ]
