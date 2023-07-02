@@ -20,7 +20,7 @@
 
 // console.log(typeof user);
 
-/////////////////// object literals ////////////////////////
+/////////////////// Adding Methods ////////////////////////
 
 // let user = {
 //   name: "crystal",
@@ -45,7 +45,7 @@
 // const name = "shaun";
 // name.toUpperCase();
 
-/////////////////// object literals ///////////////////////
+///////////////////  'this' Keyword ///////////////////////
 
 // let user = {
 //   name: "crystal",
@@ -53,7 +53,7 @@
 //   email: "crystal@thenetninja.co.uk",
 //   location: "berlin",
 //   blogs: ["why mac & cheese rules", "10 things to make with marmite"],
-//   login() {
+//   login: function() {
 //     console.log("the user logged in");
 //   },
 //   logout() {
@@ -80,6 +80,7 @@
 // ];
 
 // console.log(blogs[0].title);
+// console.log(blogs[0].likes);
 
 // let user = {
 //   name: "crystal",
@@ -103,7 +104,7 @@
 //     this.blogs.forEach((blog) => {
 //       console.log(`${blog.title} has ${blog.likes} likes`);
 //     });
-//   },
+//   }
 // };
 
 // console.log(this);

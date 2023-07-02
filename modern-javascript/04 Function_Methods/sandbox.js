@@ -3,7 +3,7 @@
 //   console.log("hello there");
 // }
 
-// function expression
+////////// function expression ///////////////////
 // const speak = function () {
 //   console.log("good day!");
 // };
@@ -22,6 +22,12 @@
 // speak();
 // speak("shaun");
 
+// const greetings = function(name = "Jam", time = "afternoon"){
+//   console.log(`Good ${time}! ${name}`);
+// }
+
+// greetings();
+
 ////////////// return statements /////////////////
 
 // const speak = function(name, time){
@@ -36,7 +42,16 @@
 // const area = calcArea(5);
 // console.log("area is:", area);
 
-// arrow functions
+
+// const calcArea = function (radius) {
+//   // return area = 3.13 * radius ** 2;
+//   return 3.13 * radius ** 2;
+// }
+
+// const a = calcArea(5);
+// console.log(a);
+
+///////////////////// Arrow functions ////////////////////
 
 // regular function
 // const calcArea = function(radius){
@@ -44,7 +59,7 @@
 // }
 
 ///////////////////// arrow function ////////////////////
-// const calcArea = (radius) => 3.14 * radius ** 2;
+// const calcArea = radius => 3.14 * radius ** 2;
 
 // const area = calcArea(5);
 // console.log("area is:", area);
@@ -64,6 +79,7 @@
 //   }
 //   return total;
 // }
+
 
 // const bill = (products, tax) => {
 //   let total = 0;
@@ -106,16 +122,39 @@
 
 // people.forEach(logPerson);
 
-const ul = document.querySelector(".people");
+// let people = ['Jam', 'Demi', 'Carl', 'Erica'];
 
-const people = ["mario", "luigi", "ryu", "shaun", "chun-li"];
+// const logPerson = (person,index) => {
+//   console.log(`${index} - Hello ${person}`);
+// }
 
-let html = ``;
+// people.forEach(logPerson);
 
-people.forEach((person) => {
-  // create html template for each person
-  html += `<li style="color: purple">${person}</li>`;
-});
+////////////Callback Functions in Action////////////////
 
-console.log(html);
-ul.innerHTML = html;
+// const ul = document.querySelector(".people");
+
+// const people = ["mario", "luigi", "ryu", "shaun", "chun-li"];
+
+// let html = ``;
+
+// people.forEach((person) => {
+//   // create html template for each person
+//   html += `<li style="color: purple">${person}</li>`;
+// });
+
+// console.log(html);
+// ul.innerHTML = html;
+
+// const ul = document.querySelector(".people");
+// const people = ["mario", "luigi", "ryu", "shaun", "chun-li"];
+
+// let html = ``;
+
+// people.forEach((person => {
+//   html += `<li style="color: purple">${person}</li>`;
+// }));
+
+// console.log(html);
+// ul.innerHTML = html;
+
