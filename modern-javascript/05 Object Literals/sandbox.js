@@ -45,6 +45,7 @@
 // const name = "shaun";
 // name.toUpperCase();
 
+
 ///////////////////  'this' Keyword ///////////////////////
 
 // let user = {
@@ -123,7 +124,7 @@
 // console.log(Math.ceil(area));
 // console.log(Math.trunc(area));
 
-// random numbers
+// // // random numbers
 
 // const random = Math.random();
 
@@ -132,7 +133,7 @@
 
 ///////////////Primitive vs Reference ///////////////////
 
-////////////////// primitive values /////////////////
+// //// primitive values ///////
 
 // let scoreOne = 50;
 // let scoreTwo = scoreOne;
@@ -141,7 +142,7 @@
 // scoreOne = 100;
 // console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
-/////////////// reference values //////////////////
+// //////// reference values //////
 
 // userOne = { name: 'ryu', age: 30 };
 // userTwo = userOne;

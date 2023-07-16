@@ -1,5 +1,5 @@
 //Async JavaScript//
-// -Governs how we perform tasl whick take some time to complete (e.g Getting data from a database)
+// -Governs how we perform task whick take some time to complete (e.g Getting data from a database)
 // "Start something now and finish it later"
 
 // Single Threaded
@@ -199,39 +199,39 @@
 // });
 
 ///////////////// 010 Chaining Promises //////////////////
-const getTodos = (resource) => {
+// const getTodos = (resource) => {
 
-    return new Promise((resolve, reject) => {
-      const request = new XMLHttpRequest();
+//     return new Promise((resolve, reject) => {
+//       const request = new XMLHttpRequest();
   
-      request.addEventListener('readystatechange', () => {
+//       request.addEventListener('readystatechange', () => {
     
-        if(request.readyState === 4 && request.status === 200){
-          const data = JSON.parse(request.responseText);
-          resolve(data);
-        } else if (request.readyState === 4){
-          reject('could not fetch the data');
-        }
+//         if(request.readyState === 4 && request.status === 200){
+//           const data = JSON.parse(request.responseText);
+//           resolve(data);
+//         } else if (request.readyState === 4){
+//           reject('could not fetch the data');
+//         }
     
-      });
+//       });
       
-      request.open('GET', resource);
-      request.send();
-    });
+//       request.open('GET', resource);
+//       request.send();
+//     });
   
-  };
+//   };
   
-  getTodos('json/luigi.json').then(data => {
-    console.log('promise 1 resolved:', data);
-    return getTodos('json/mario.json');
-  }).then(data => {
-    console.log('promise 2 resolved:', data);
-    return getTodos('json/shaun.json');
-  }).then(data => {
-    console.log('promise 3 resolved:', data);
-  }).catch(err => {
-    console.log('promise rejected:', err);
-  });
+//   getTodos('json/luigi.json').then(data => {
+//     console.log('promise 1 resolved:', data);
+//     return getTodos('json/mario.json');
+//   }).then(data => {
+//     console.log('promise 2 resolved:', data);
+//     return getTodos('json/shaun.json');
+//   }).then(data => {
+//     console.log('promise 3 resolved:', data);
+//   }).catch(err => {
+//     console.log('promise rejected:', err);
+//   });
 
 ///////////////  011 The Fetch API ////////////////
 // fetch API

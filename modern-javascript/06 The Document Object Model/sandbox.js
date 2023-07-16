@@ -14,16 +14,16 @@
 
 //////// 004 Other Ways to Query the DOM /////////////
 
-// get an element by ID
+// // get an element by ID
 // const title = document.getElementById('page-title');
 // console.log(title); 
 
-// get element by their class name 
+// // get element by their class name 
 // const errors = document.getElementsByClassName("error");
 // console.log(errors);
 // console.log(errors[0]);
 
-// get elements by their tag name 
+// // get elements by their tag name 
 // const paras = document.getElementsByTagName('p');
 // console.log(paras);
 // console.log(paras[1]);
@@ -114,7 +114,7 @@
 // console.log(title.nextElementSibling);
 // console.log(title.previousElementSibling);
 
-// // chaining
+// //chaining
 // console.log(title.nextElementSibling.parentElement.children);
 
 /////////////////////010 Event Basics (click events)/////////////////// 
@@ -140,7 +140,7 @@
 // const ul = document.querySelector('ul');
 // // ul.remove();
 
-// const button = document.querySelector('button');4
+// const button = document.querySelector('button');
 
 // console.log(name);
 
@@ -211,23 +211,23 @@
 // });
 
 //////////////////014 Building a Popup//////////////////////
-const button = document.querySelector('button');
-const popup = document.querySelector('.popup-wrapper');
-const close = document.querySelector('.popup-close');
+// const button = document.querySelector('button');
+// const popup = document.querySelector('.popup-wrapper');
+// const close = document.querySelector('.popup-close');
 
-button.addEventListener('click', () => {
-  popup.style.display = 'block';
-});
+// button.addEventListener('click', () => {
+//   popup.style.display = 'block';
+// });
 
-close.addEventListener('click', () => {
-  popup.style.display = 'none';
-});
+// close.addEventListener('click', () => {
+//   popup.style.display = 'none';
+// });
 
-popup.addEventListener('click', (e) => {
-  if(e.target.className === 'popup-wrapper'){
-    popup.style.display = 'none';
-  }
-});
+// popup.addEventListener('click', (e) => {
+//   if(e.target.className === 'popup-wrapper'){
+//     popup.style.display = 'none';
+//   }
+// });
 
 
 

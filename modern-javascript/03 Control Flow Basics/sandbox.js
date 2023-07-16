@@ -60,7 +60,7 @@
 // }
 
 ////////////////else if statements/////////////////
-// const password = "p@ssword123456";
+// const password = "p@ssword";
 
 // if (password.length >= 12) {
 //   console.log("that password is mighty strong");
@@ -73,7 +73,7 @@
 // else if statements
 
 // logical operators OR || and AND &&
-// const password = 'p@ss12';
+// const password = 'p@ssssssssssssss12';
 
 // if(password.length >= 12 && password.includes('@')){
 //   console.log('that password is mighty strong');
