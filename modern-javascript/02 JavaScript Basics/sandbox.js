@@ -47,7 +47,7 @@
 
 ////////// common string methods ///////////////////
 
-// let email = 'mario@thenetninja.co.uk';
+//let email = 'mario@thenetninja.co.uk';
 
 //let result = email.lastIndexOf('n');
 
